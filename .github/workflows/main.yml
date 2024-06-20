@@ -24,4 +24,4 @@ jobs:
         install.packages("mongolite")
       shell: Rscript {0} 
     - name: Scrape Data Alfagift
-      run: Rscript scrape_alfa.R
+      run: Rscript scrape_alfa_1.R
