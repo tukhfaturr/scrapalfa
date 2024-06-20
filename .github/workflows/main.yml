@@ -25,4 +25,4 @@ jobs:
         install.library("jsonlite")
       shell: Rscript {0} 
     - name: Scrape Data Alfagift
-      run: Rscript scrape_alfa_1.R
+      run: Rscript scrap_alfaa.R
