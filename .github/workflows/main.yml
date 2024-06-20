@@ -22,6 +22,7 @@ jobs:
         install.packages("rvest", dependencies = TRUE)
         install.packages("tidyverse", dependencies = TRUE)
         install.packages("mongolite")
+        install.library("jsonlite")
       shell: Rscript {0} 
     - name: Scrape Data Alfagift
       run: Rscript scrape_alfa_1.R
