@@ -1,4 +1,4 @@
-name: scrape_alfa
+name: scrape_produk
 
 on:
   schedule:
@@ -23,5 +23,5 @@ jobs:
         install.packages("tidyverse", dependencies = TRUE)
         install.packages("mongolite")
       shell: Rscript {0} 
-    - name: Scrape Data Alfagift
-      run: Rscript scrap_alfaa.R
+    - name: Scrape Data Produk
+      run: Rscript produk.R
